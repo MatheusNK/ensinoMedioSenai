@@ -1,0 +1,29 @@
+h3{
+    text-align: center;
+    color: dodgerblue;
+}
+
+form{
+    background-color: cyan;
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.form-group{padding: 10px;}
+
+button{ width: 48%;}
+
+@media screen and (max-width:850px){
+    form{width: 50%;}
+}
+
+@media screen and (max-width:400px){
+    form{width: 80%;}
+}
+
+.alert{
+    display: none;
+}
